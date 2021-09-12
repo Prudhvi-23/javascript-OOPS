@@ -1,4 +1,4 @@
-class Animal{
+class Man{
     constructor(name){
         this.name=name;
     }
@@ -6,11 +6,11 @@ class Animal{
         console.log(this.name + " "+'eats fish');
     }
 }
-class Aligator extends Animal{
+class Restaruant extends Man{
     eats(){
         super.eats();
-        console.log(this.name+" "+'eats food');
+        console.log(this.name+" "+'eats chicken');
     }
 }
-let man=new Aligator('man');
-man.eats();
+let Prudhvi=new Restaruant('Prudhvi');
+Prudhvi.eats();
